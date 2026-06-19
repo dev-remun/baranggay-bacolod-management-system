@@ -1,59 +1,67 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# 🏛️ Barangay Management System
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+A web-based Barangay Management System developed for Barangay Bacolod, Tabaco City. The system streamlines barangay operations by digitizing resident records, managing barangay officials, and providing secure role-based access control for different users.
 
-## About Laravel
+Built using **PHP 8.2.12**, **Laravel 12.62.0**, **Vite 7.3.5**, **Tailwind CSS 4.3.1**, **HTML5**, **CSS3**, and **JavaScript**, the application provides a modern, responsive, and user-friendly platform for residents and barangay personnel.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+## 🚀 Key Features
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+### 👤 User Registration
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+* Resident Registration
+* Barangay Official Registration
+* Secure user authentication and login
+* Account management and profile updates
 
-## Learning Laravel
+### 🔐 Role-Based Access Control
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework. You can also check out [Laravel Learn](https://laravel.com/learn), where you will be guided through building a modern Laravel application.
+The system supports three user roles:
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+#### Resident
 
-## Laravel Sponsors
+* View personal information
+* Access barangay services
+* Monitor submitted requests
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+#### Barangay Official
 
-### Premium Partners
+* Manage resident records
+* Monitor community data
+* Process resident requests and applications
 
-- **[Vehikl](https://vehikl.com)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Redberry](https://redberry.international/laravel-development)**
-- **[Active Logic](https://activelogic.com)**
+#### Administrator
 
-## Contributing
+* Full system management
+* User and role administration
+* System monitoring and maintenance
+* Generate reports and analytics
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+## 🛠️ Technologies Used
 
-## Code of Conduct
+### Backend
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+* PHP 8.2.12
+* Laravel 12.62.0
 
-## Security Vulnerabilities
+### Frontend
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+* HTML5
+* CSS3
+* JavaScript
+* Tailwind CSS 4.3.1
 
-## License
+### Build Tool
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+* Vite 7.3.5
+
+### Database
+
+* MySQL
+
+## 👥 User Roles
+
+| Role              | Description                                       |
+| ----------------- | ------------------------------------------------- |
+| Resident          | Access personal information and barangay services |
+| Barangay Official | Manage residents and barangay operations          |
+| Administrator     | Full access to all system functionalities         |
